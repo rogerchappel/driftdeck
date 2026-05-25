@@ -3,12 +3,12 @@
   "version": "0.1.0",
   "description": "Local-first dependency and runtime drift snapshots for multi-repo workspaces.",
   "type": "module",
-  "main": "./dist/index.js",
+  "main": "./dist/src/index.js",
   "bin": {
-    "driftdeck": "./dist/cli.js"
+    "driftdeck": "./dist/src/cli.js"
   },
   "exports": {
-    ".": "./dist/index.js"
+    ".": "./dist/src/index.js"
   },
   "files": [
     "dist",

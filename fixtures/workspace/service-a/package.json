@@ -1,0 +1,19 @@
+{
+  "name": "service-a",
+  "version": "1.0.0",
+  "packageManager": "npm@10.8.2",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test",
+    "unused": "echo ignored"
+  },
+  "dependencies": {
+    "left-pad": "1.3.0"
+  },
+  "devDependencies": {
+    "typescript": "5.8.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
