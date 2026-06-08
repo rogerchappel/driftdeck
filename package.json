@@ -38,5 +38,13 @@
   "devDependencies": {
     "@types/node": "^22.15.24",
     "typescript": "^5.8.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogerchappel/driftdeck.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rogerchappel/driftdeck/issues"
+  },
+  "homepage": "https://github.com/rogerchappel/driftdeck#readme"
 }
