@@ -14,7 +14,8 @@
     "dist",
     "README.md",
     "LICENSE",
-    "SECURITY.md"
+    "SECURITY.md",
+    "CHANGELOG.md"
   ],
   "scripts": {
     "build": "tsc",
@@ -22,7 +23,8 @@
     "test": "npm run build && node --test dist/tests/**/*.test.js",
     "smoke": "npm run build && bash scripts/smoke-test.sh",
     "package:smoke": "npm pack --dry-run",
-    "release:check": "npm run check && npm test && npm run smoke && npm run package:smoke"
+    "release:check": "npm run check && npm test && npm run smoke && npm run package:smoke",
+    "validate": "bash scripts/validate.sh"
   },
   "keywords": [
     "cli",
