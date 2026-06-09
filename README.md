@@ -44,7 +44,12 @@ Useful focused checks:
 npm run check
 npm test
 npm run smoke
+npm run release:check
 ```
+
+`release:check` runs type checking, tests, fixture smoke coverage, and a dry-run
+package check. `npm run validate` wraps the repository hygiene checks in
+`scripts/validate.sh` for local release-readiness audits.
 
 ## Contributing
 
