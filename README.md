@@ -60,6 +60,19 @@ should be small, reviewable, and verified before review.
 
 See [SECURITY.md](SECURITY.md) for vulnerability reporting guidance.
 
+## Development
+
+Use Node.js 20 or newer. Run these checks before opening a PR:
+
+```sh
+npm run build
+npm run check
+npm test
+npm run smoke
+npm run package:smoke
+npm run release:check
+```
+
 ## License
 
 MIT
