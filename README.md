@@ -2,6 +2,20 @@
 
 DriftDeck is a local-first CLI for snapshotting dependency, script, CI, Git, and runtime metadata across a folder of repositories. It gives maintainers and agents a deterministic deck they can diff when a workspace quietly changes shape.
 
+
+## Quickstart
+
+Run the tool from a fresh checkout:
+
+```sh
+npm install
+npm run build
+node dist/src/cli.js --help
+npm test
+```
+
+The help command is a quick smoke test for the CLI entrypoint, and `npm test` runs the committed regression suite before you depend on the output.
+
 ## Status
 
 This repository is early-stage. The MVP supports local scans and local snapshot diffs; hosted dashboards and dependency update automation are intentionally out of scope.
